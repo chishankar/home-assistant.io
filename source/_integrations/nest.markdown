@@ -229,10 +229,10 @@ everything, however, you can leave out any feature you do not wish to use with H
     - Add the URL to the list of *Authorized redirect URIs* and click **Save** and start the flow over.
 
       ![Screenshot of success](/images/integrations/nest/redirect_uris_fix.png)
-
+      
 - When configuring the OAuth Client ID redirect URI, you may see an error such as *must end with a public top-level
   domain (such as .com or .org)* or *must use a valid domain that is a valid top private domain*. This means that you
-  may need to change the URL you use to access Home Assistant in order to access your devices.
+  may need to change the URL, from a local address, you use to access Home Assistant in order to launch the integration process.
 
     - A convienent solution is to use [Nabu Casa](https://www.nabucasa.com/)
     - There are subtle rules for what types of URLs are allowed, namely that they must use a publicly known hostname, though your Home Assistant ports do not need to be exposed to the internet.
